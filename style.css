@@ -47,17 +47,24 @@ li > a {
   margin-left: 40px;
   padding-bottom: 10px;
 }
-/* Styling on hover */
+/* Styling anchor tag on hover */
 li > a:hover {
   border-bottom: 4px solid var(--main-color);
   border-radius: 4px;
 }
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 900
 
-.playfair-display-<uniquifier > {
+/* Styling the Header Section */
+.header {
+  background-image: url("./images/pexels-nao-triponez-129207.jpg");
+  background-position: center;
+  background-size:contain;
+}
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 900 */
+
+/* .playfair-display-<uniquifier > {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-}
+} */
