@@ -57,7 +57,18 @@ li > a:hover {
 .header {
   background-image: url("./images/pexels-nao-triponez-129207.jpg");
   background-position: center;
-  background-size:contain;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #fff;
+  /* flexbox magic */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
 }
 /* <uniquifier>: Use a unique and descriptive class name
 <weight>: Use a value from 400 to 900 */
