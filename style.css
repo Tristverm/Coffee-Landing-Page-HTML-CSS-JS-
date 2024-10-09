@@ -70,6 +70,13 @@ li > a:hover {
   position: relative;
   text-align: center;
 }
+.main-headings {
+  position: absolute;
+  top: 7rem;
+  font-size: 4rem;
+  word-spacing: 10px;
+  margin-bottom: 40px;
+}
 /* <uniquifier>: Use a unique and descriptive class name
 <weight>: Use a value from 400 to 900 */
 
