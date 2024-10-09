@@ -14,6 +14,9 @@ button {
   border: none;
   cursor: pointer;
 }
+body {
+  background-color: #100e0f;
+}
 
 /* Resets */
 * {
@@ -21,9 +24,7 @@ button {
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: #100e0f;
-}
+
 /* Navigation Styles */
 nav {
   display: flex;
@@ -75,7 +76,20 @@ li > a:hover {
   top: 7rem;
   font-size: 4rem;
   word-spacing: 10px;
-  margin-bottom: 40px;
+}
+.primary-heading {
+  position: absolute;
+  bottom: 4rem;
+  font-size: 4rem;
+  word-spacing: 10px;
+  margin-bottom: -40px;
+}
+.main-btn {
+  position: absolute;
+  bottom: 2rem;
+  padding: 10px 30px;
+  margin-top: 20px;
+  transform: translateY(60px);
 }
 /* <uniquifier>: Use a unique and descriptive class name
 <weight>: Use a value from 400 to 900 */
