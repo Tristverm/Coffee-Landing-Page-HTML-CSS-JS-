@@ -14,9 +14,6 @@ button {
   border: none;
   cursor: pointer;
 }
-body {
-  background-color: #100e0f;
-}
 
 /* Resets */
 * {
@@ -24,7 +21,9 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  background-color: #100e0f;
+}
 /* Navigation Styles */
 nav {
   display: flex;
@@ -34,6 +33,7 @@ nav {
   color: #fff;
   font-family: sans-serif;
   padding-top: 15px;
+  height: 4rem;
 }
 /* navigation container for elements */
 nav > ul {
@@ -51,9 +51,8 @@ li > a {
 /* Styling anchor tag on hover */
 li > a:hover {
   border-bottom: 4px solid var(--main-color);
-  border-radius: 4px;
+ 
 }
-
 /* Styling the Header Section */
 .header {
   background-image: url("./images/pexels-nao-triponez-129207.jpg");
@@ -89,6 +88,9 @@ li > a:hover {
   bottom: 2rem;
   padding: 10px 30px;
   margin-top: 20px;
+  background-color: transparent;
+  background: var(--main-color);
+  border: none;
   transform: translateY(60px);
 }
 /* <uniquifier>: Use a unique and descriptive class name
