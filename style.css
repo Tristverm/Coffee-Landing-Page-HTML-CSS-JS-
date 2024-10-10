@@ -51,7 +51,6 @@ li > a {
 /* Styling anchor tag on hover */
 li > a:hover {
   border-bottom: 4px solid var(--main-color);
- 
 }
 /* Styling the Header Section */
 .header {
@@ -102,3 +101,22 @@ li > a:hover {
   font-weight: <weight>;
   font-style: normal;
 } */
+#our-story {
+  height: 100vh;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.img {
+  width: 400px;
+  height: 400px;
+  background: url("images/pexels-chitokan-2183027-removebg-preview.png");
+  background-position: center, center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.title-style {
+}
