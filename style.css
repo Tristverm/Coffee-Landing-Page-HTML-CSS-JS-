@@ -122,4 +122,16 @@ li > a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  }
+}
+.title {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  color: #fff;
+  transform: translateX(-100px);
+}
+.line {
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+  transform: translateX(-120px);
+}
