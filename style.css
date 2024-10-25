@@ -135,3 +135,9 @@ li > a:hover {
   background-color: #fff;
   transform: translateX(-120px);
 }
+.section-content > p{
+  max-width: 500px;
+  color: #fff;
+  line-height: 20px;
+  margin:20px 0;
+}
