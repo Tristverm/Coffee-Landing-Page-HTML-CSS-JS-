@@ -205,6 +205,21 @@ li > a:hover {
   height: 100px;
   position: absolute;
   top: -60px;
-  border: 2px solid var(--main-color);
-  background-color: aliceblue;
+  z-index: 2;
+  background-color: transparent;
+}
+.img-one {
+  background-image: url(./images/1.png);
+  background-position: center;
+  background-size: contain;
+}
+.img-two {
+  background-image: url(./images/2.png);
+  background-position: center;
+  background-size: contain;
+}
+.img-three {
+  background-image: url(./images/3.png);
+  background-position: center;
+  background-size: contain;
 }
