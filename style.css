@@ -223,3 +223,13 @@ li > a:hover {
   background-position: center;
   background-size: contain;
 }
+.card-title {
+  color: #fff;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+.card > .items {
+  color: #fff;
+  font-family: sans-serif;
+}
+/* Products end */
