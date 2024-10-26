@@ -101,8 +101,8 @@ li > a:hover {
   font-weight: <weight>;
   font-style: normal;
 } */
- 
- /* Our Story Starts Here */
+
+/* Our Story Starts Here */
 #our-story {
   height: 100vh;
   margin-top: 15%;
@@ -137,9 +137,25 @@ li > a:hover {
   background-color: #fff;
   transform: translateX(-120px);
 }
-.section-content > p{
+.section-content > p {
   max-width: 500px;
   color: #fff;
   line-height: 20px;
-  margin:20px 0;
+  margin: 20px 0;
+}
+/* Coffeee section start */
+.coffee-container {
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.content-section > p {
+  max-width: 500px;
+}
+.img-2 {
+  height: 400px;
+  width: 400px;
 }
