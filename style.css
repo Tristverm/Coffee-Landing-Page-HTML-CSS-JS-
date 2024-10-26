@@ -152,10 +152,18 @@ li > a:hover {
   justify-content: space-around;
   align-items: center;
 }
-.content-section > p {
-  max-width: 500px;
-}
 .img-2 {
   height: 400px;
   width: 400px;
+}
+.title-two {
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
+
+.content-section > p {
+  max-width: 500px;
+  margin-top: 20px;
 }
