@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-  const section = document.getElementsByClassName("coffee-container")[0];
+  const section = document.getElementsByClassName("products")[0];
 
   section?.scrollIntoView({ behavior: "smooth" });
 

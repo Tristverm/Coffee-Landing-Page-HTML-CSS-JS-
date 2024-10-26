@@ -169,3 +169,14 @@ li > a:hover {
   color: #fff;
   font-family: serif;
 }
+/* Coffeee section End */
+/* Card section start */
+.products {
+  margin-top: 5rem;
+}
+.title-three {
+  font-size: 4rem;
+  margin-left: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
