@@ -5,3 +5,7 @@ window.addEventListener("load", () => {
 
   console.log(section);
 });
+let date = new Date().getFullYear();
+const para = document.getElementsByClassName("year")[0];
+para.textContent = date.toString();
+// console.log(para);
