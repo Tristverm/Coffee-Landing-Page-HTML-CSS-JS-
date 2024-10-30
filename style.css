@@ -237,3 +237,17 @@ li > a:hover {
   font-family: sans-serif;
 }
 /* Products end */
+/* Footer STart */
+footer {
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+footer .container {
+  margin: 20px;
+  max-width: 300px;
+  text-align: center;
+}
