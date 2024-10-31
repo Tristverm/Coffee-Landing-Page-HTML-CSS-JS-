@@ -251,3 +251,24 @@ footer .container {
   max-width: 300px;
   text-align: center;
 }
+.container > .heading-info {
+  margin-bottom: 20px;
+}
+footer > p {
+  line-height: 25px;
+}
+.container > .heading-info > span {
+  color: var(--main-color);
+}
+hr {
+  margin-bottom: 20px;
+  border: var(--main-color);
+  width: 500px;
+  margin: 0 auto;
+}
+.para {
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
