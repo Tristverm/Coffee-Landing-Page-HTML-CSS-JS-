@@ -46,6 +46,11 @@ nav {
   flex-direction: column;
   justify-content: space-around;
 }
+.hamburger-button-hover {
+  cursor: pointer;
+  transform: rotate(90deg);
+  transition: 800ms;
+}
 .hamburger-button > span {
   display: block;
   background-color: #fff;
@@ -340,10 +345,12 @@ hr {
     text-align: center;
   }
   #our-story .title {
-    transform: translateX(50px);
+    transform: none;
   }
   #our-story .line {
     display: none;
+    margin: 0 auto;
+    text-align: center;
   }
   .content-section {
     text-align: center;
@@ -366,5 +373,8 @@ hr {
     margin-bottom: 12rem;
     transform: none;
     text-align: center;
+  }
+  .line {
+    display: none;
   }
 }

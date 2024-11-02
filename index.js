@@ -14,4 +14,5 @@ const hamburgerButton = document.getElementById("hamburgerButton");
 const mobileViewNav = document.getElementById("mobileViewNav");
 hamburgerButton.addEventListener("click", () => {
   mobileViewNav.classList.toggle("mobileViewNavDisplay");
+  hamburgerButton.classList.toggle("hamburger-button-hover")
 });
