@@ -37,11 +37,29 @@ nav {
   padding-top: 15px;
   height: 4rem;
 }
+.hamburger-button {
+  display: none;
+  height: 30px;
+  width: 30px;
+  align-self: center;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.hamburger-button > span {
+  display: block;
+  background-color: #fff;
+  width: 30px;
+  height: 2px;
+}
 /* navigation container for elements */
-nav > ul {
+#desktopViewNav {
   display: flex;
   flex-direction: row;
   list-style: none;
+}
+#mobileViewNav {
+  display: none;
 }
 /* each anchor tag */
 li > a {
@@ -238,8 +256,8 @@ li > a:hover {
 }
 /* Products end */
 /* Footer STart */
-footer {
-  height: 50vh;
+.footer-container {
+  height: 80vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -272,8 +290,48 @@ hr {
   text-align: center;
   margin-top: 20px;
 }
+.para > .year {
+  color: var(--main-color);
+}
 /* Responsiveness */
 @media only screen and (max-width: 768px) {
+  #desktopViewNav {
+    display: none;
+  }
+  .mobileViewNavDisplay {
+    display: flex !important;
+  }
+  #mobileViewNav {
+    flex-direction: column;
+    position: absolute;
+    height: 200px;
+    top: 10px;
+    right: 34px;
+    justify-content: space-around;
+    z-index: 40;
+    display: none;
+    list-style: none;
+  }
+  /* each anchor tag */
+  #mobileViewNav > li > a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    padding-bottom: 10px;
+  }
+  /* Styling anchor tag on hover */
+  #mobileViewNav > li > a:hover {
+    border-bottom: 4px solid var(--main-color);
+  }
+  .hamburger-button {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    align-self: center;
+
+    flex-direction: column;
+    justify-content: space-around;
+  }
   .main-headings,
   .primary-heading {
     font-size: 2.5rem;
