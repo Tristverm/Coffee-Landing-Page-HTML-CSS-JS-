@@ -272,3 +272,16 @@ hr {
   text-align: center;
   margin-top: 20px;
 }
+/* Responsiveness */
+@media only screen and (max-width: 768px) {
+  .main-headings,
+  .primary-heading {
+    font-size: 2.5rem;
+  }
+  #our-story {
+    text-align: center;
+  }
+  #our-story .title {
+    transform: translateX(50px);
+  }
+}
