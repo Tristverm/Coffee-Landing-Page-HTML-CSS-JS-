@@ -37,6 +37,12 @@ nav {
   padding-top: 15px;
   height: 4rem;
 }
+.logo {
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  border-radius: 100%;
+}
 .hamburger-button {
   display: none;
   height: 30px;
